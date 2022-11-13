@@ -1,0 +1,94 @@
+/*ShowCasw*/
+:root{
+    --primary-color: rgb(0, 110, 60);
+    --primary-color2: rgb(255, 123, 0);
+}
+
+
+.showCase{
+    
+    height: 400px;
+   
+    color: white;
+    position: relative;
+}
+.showCase-form{
+    position: relative;
+    top: 60px;
+    height: 450px;
+    width: 500px;
+    padding: 40px;
+    z-index: 100;
+    margin-top: -10px;
+    
+}
+.showCase-form .form-control{
+    margin: 30px 0;
+}
+.
+.showCase-form input[type = 'text'],
+.showCase-form input[type = 'email'] {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+.showCase-form input:focus{
+    outline: none;
+}
+.showCase-form input[id = 'sms']{
+    height: 200px;
+    border: 1px solid #b4becb;
+}
+/*.showCase::before,.showCase::after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: white;
+    transform: skewY(-3deg);
+}*/
+.showCase h2{
+    font-size: 30px;
+    color: var(--primary-color2);
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+   border: 1px solid rgba(51, 51, 51, 0.261);
+    padding: 20px;
+    margin: 10px;
+    color: #333!important;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background:var(--primary-color2);
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn:hover{
+    transform: scale(0.98);
+    background-color: white;
+    border: 1px solid var(--primary-color2);
+    color: var(--primary-color2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
